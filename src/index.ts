@@ -1,3 +1,2 @@
-import ZrsPlayer from '@/core/index';
+import '@/core/index';
 import '@/icons/';
-export default ZrsPlayer;

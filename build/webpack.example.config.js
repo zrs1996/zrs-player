@@ -8,7 +8,7 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 module.exports = merge(common, {
   mode: "development",
   entry: {
-    app: "./src/index",
+    app: "./example/src/index",
   },
   output: {
     filename: "[name].js",
@@ -18,7 +18,7 @@ module.exports = merge(common, {
   devServer: {
     contentBase: path.resolve(__dirname, "dist"),
     open: true,
-    port: 9000,
+    port: 9001,
     compress: true,
     hot: true,
   },
@@ -43,7 +43,7 @@ module.exports = merge(common, {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: "src/index.html",
+      template: "example/src/index.html",
       inject: "body",
       hash: false,
     }),

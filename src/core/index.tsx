@@ -7,11 +7,12 @@ import React, {
   useImperativeHandle,
 } from 'react';
 
-const ZrsPlayer = function ZrsPlayer() {
+const AppCompent = () => {
 
   return (
-     <div></div>
+    <>
+      123456
+    </>
   );
 };
-
-export default ZrsPlayer;
+export default AppCompent;

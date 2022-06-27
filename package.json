@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack --config ./build/webpack.prod.config.js",
+    "example": "webpack-dev-server  --inline --config ./build/webpack.example.config.js",
     "start": "webpack-dev-server  --inline --config ./build/webpack.dev.config.js"
   },
   "repository": {
